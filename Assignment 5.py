@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
+#Ques1
 
 
 string ="Hello"
@@ -9,7 +6,7 @@ rev_string=string[::-1]
 print(rev_string)
 
 
-# In[ ]:
+#Ques2
 
 
 up_range=int(input("Enter upper range :"))
@@ -19,7 +16,7 @@ for i in range(1,up_range):
         print(i)
 
 
-# In[ ]:
+#Ques3
 
 
 a = float(input('Enter first side: '))  
@@ -32,8 +29,7 @@ if a<b+c and b<a+c and c<a+b:
     area = (s*(s-a)*(s-b)*(s-c)) ** 0.5  
     print('The area of the triangle is: ',area) 
 
-
-# In[ ]:
+#Ques4
 
 
 n=5
@@ -48,7 +44,7 @@ for i in range(n-1):        #for downward triangle
     print()
 
 
-# In[ ]:
+#Ques5
 
 
 n = int(input("Enter number of rows : "))
@@ -61,7 +57,7 @@ for i in range (n):
     print()
 
 
-# In[ ]:
+#Ques6
 
 
 up_range= int(input('Enter the upper range to find prime numbers till it : '))
@@ -75,15 +71,14 @@ for i in range(up_range):
             print(i)
 
 
-# In[ ]:
-
+#Ques7
 
 for i in range (1,500):
     if i%7==0 and i%11==0: #to find number multiple of 7 and divisible by 11
         print(i)
 
 
-# In[ ]:
+#Ques8
 
 
 a_list=[]
@@ -93,7 +88,7 @@ for i in range(10):
 print(a_list)
 
 
-# In[ ]:
+#Ques9
 
 
 word_list=[]
